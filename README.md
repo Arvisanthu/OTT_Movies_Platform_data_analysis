@@ -1,3 +1,75 @@
+### **1. Project Objectives**
+
+* Perform **exploratory analysis** of movies across streaming platforms:
+
+  * Netflix
+  * Amazon Prime
+  * Hulu
+  * Disney+
+* Answer key questions:
+
+  * Where are the best movies found?
+  * Which directors, years, and genres have the highest-rated movies?
+  * How do genres and ratings vary across platforms?
+
+---
+
+### **2. Methods**
+
+* **Data Understanding & Cleaning**
+
+  * Load dataset (`MoviesOnStreamingPlatforms_updated.csv`).
+  * Handle missing values and duplicates.
+  * Transform “Genres” into dummy variables for analysis.
+* **Exploratory Data Analysis (EDA)**
+
+  * Visualizations using **Matplotlib, Seaborn, and Plotly**.
+  * Check movie distribution across platforms.
+  * Identify top genres, directors, and years.
+  * Compare IMDb ratings and Rotten Tomatoes scores.
+
+---
+
+### **3. Dataset**
+
+* Source: Public dataset from [GitHub repository](https://github.com/rajeevratan84/datascienceforbusiness/blob/master/MoviesOnStreamingPlatforms_updated.csv).
+* Content:
+
+  * Movies available on **Netflix, Prime, Hulu, and Disney+**.
+  * Features include: Title, Year, Age rating, IMDb rating, Rotten Tomatoes rating, Genres, Directors, Runtime, and Platform availability.
+
+---
+
+### **4. Results**
+
+* **Distribution of Movies:**
+
+  * Amazon Prime has the **largest movie catalog**, followed by Netflix, Hulu, and Disney+.
+* **Top-Rated Movies:**
+
+  * Best movies (by IMDb) are spread across platforms, but some platforms have more consistently high-rated titles.
+* **Yearly Trends:**
+
+  * Certain years had significantly higher numbers of top-rated movies.
+* **Directors:**
+
+  * Some directors consistently appear in top-rated lists.
+* **Genres:**
+
+  * Drama, Comedy, and Action are the most common.
+  * Some genres score higher on IMDb and Rotten Tomatoes.
+
+---
+
+### **5. Insights**
+
+* **Amazon Prime leads in quantity** but not always in quality—Netflix and Disney+ often host higher-rated movies.
+* **Genre diversity matters**: platforms with broader coverage (e.g., Netflix, Prime) attract varied audiences.
+* **High ratings correlate with certain genres and directors**, suggesting content strategy opportunities for platforms.
+* **Disney+ specializes more in family-oriented and high-rating niche genres**, while Hulu has a smaller but unique collection.
+
+---
+
 *Visualisation:*
 
 <img width="1242" height="525" alt="newplot" src="https://github.com/user-attachments/assets/d5d45380-e4b9-4388-bef7-77d93c72bccb" />
